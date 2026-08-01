@@ -1,4 +1,4 @@
-function SearchBar(){
+function SearchBar({searchTerm, setSearchTerm}){
     return(
         <div>
             <label htmlFor="search">Search for Projects</label>
@@ -6,6 +6,8 @@ function SearchBar(){
                 type="text"
                 id="search"
                 placeholder="Search Projects ..."
+                value= {searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
             />
         </div>
     );
