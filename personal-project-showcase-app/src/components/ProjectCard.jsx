@@ -1,6 +1,6 @@
 function ProjectCard({title, description}){
     return(
-        <article>
+        <article className="project-card">
             <h3>{title}</h3>
             <p> {description} </p>
         </article>

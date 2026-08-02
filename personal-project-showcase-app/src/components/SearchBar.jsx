@@ -1,6 +1,6 @@
 function SearchBar({searchTerm, setSearchTerm}){
     return(
-        <div>
+        <div className="search-bar">
             <label htmlFor="search">Search for Projects</label>
             <input
                 type="text"

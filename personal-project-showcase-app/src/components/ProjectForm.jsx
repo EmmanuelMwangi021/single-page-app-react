@@ -1,6 +1,7 @@
 function ProjectForm({title, description, setTitle, setDescription, handleSubmit}) {
   return (
-    <form onSubmit={handleSubmit}>
+    
+    <form className="project-form" onSubmit={handleSubmit}>
       <h2>Add Project</h2>
 
       <label htmlFor="title">Project Title</label>

@@ -15,6 +15,11 @@ function App() {
     function handleSubmit(e) {
         e.preventDefault ();
 
+        if (!title.trim() || !description.trim()) {
+            alert("Please fill in all fields");
+            return;
+        }
+
         const newProject = {
             id: Date.now(),
             title: title,
@@ -50,4 +55,4 @@ function App() {
     );
 }
 
-export default App
+export default App;
