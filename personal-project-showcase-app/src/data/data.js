@@ -14,7 +14,7 @@ const projectsData = [
     {
         id: 3,
         title: "Wordly Dictionary",
-        description: "Displays searched words and uses an API"
+        description: "Displays searched words using an API"
     }  
 ];
 export default projectsData;
